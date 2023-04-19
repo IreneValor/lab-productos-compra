@@ -36,7 +36,7 @@ router.get("/:id/edit", async (req, res, next) => {
 });
 
 router.post("/:id/edit", async (req, res, next) => {
-  const { id } = await Product.findByIdAndUpdate(id, req.params.id);
+  await Product.findByIdAndUpdate(id, req.body);
   res.redirect("/products");
 });
 

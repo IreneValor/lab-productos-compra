@@ -1,5 +1,7 @@
-document.addEventListener('DOMContentLoaded', () => {
-
-  console.log('lab-products OK!');
-
-}, false);
+document.addEventListener(
+  "DOMContentLoaded",
+  () => {
+    console.log("lab-products OK!");
+  },
+  false
+);

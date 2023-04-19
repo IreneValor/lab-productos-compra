@@ -1,3 +1,5 @@
+const { format } = require("morgan");
+
 const products = [
   { name: "guitar fender cd-60", quantify: 1, price: 119.9 },
   { name: "guitar eyebrow Ibanez igcx10", quantify: 2, price: 44 },
@@ -12,5 +14,7 @@ const products = [
     price: 27.99,
   },
 ];
+
+
 
 module.exports = products;
