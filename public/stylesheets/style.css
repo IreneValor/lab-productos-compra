@@ -1,0 +1,30 @@
+body {
+  padding: 50px;
+  font: 30px 'Lucida Grande', Helvetica, Arial, sans-serif;
+  background-image: url("/images/Guitarra-clasica.jpeg");
+  font-family: 'Courier New', Courier, monospace;
+}
+
+a {
+  color: #3187a8;
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.button-edit{
+  display: flex;
+  align-items: center;
+  justify-content:center ;
+}
+.buttons{
+  display: flex;
+}
+h2{
+  text-transform: uppercase;
+  color: rgb(238, 228, 228);
+
+}
+h5{
+  color: white;
+  text-transform: uppercase;
+}
